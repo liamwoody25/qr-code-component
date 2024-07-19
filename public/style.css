@@ -32,31 +32,34 @@ body{
     flex-wrap: wrap;
 }
 
+
 .card-body h2{
+    display: flex;
     color: var(--Dark-Navy, #1F314F);
     text-align: center;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 7px;
-    margin-bottom: 5px;
-    padding:16px ;
+    margin-top: 0px;
     
 }
 
 .card-body p{
+    padding-top: 1px;
+    padding-bottom: 16px;
+    display: flex;
     width: 256px;
     color: var(--Grey, #7D889E);
     text-align: center;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
     letter-spacing: 0.188px;
 
 }
 
 .card-img{
+    display: flex;
     margin: 16px;
     border-radius: 10px;
     width: 288px;
@@ -68,6 +71,9 @@ body{
 
 @media screen and (min-width:375px) {
     body{
+        display: flex;
         min-width: 375px;
+        height: 667px;
+        padding: 85px 28px 85px 27px;
     }
 }
