@@ -7,11 +7,16 @@
     --DB-color:#1F3251;
 }
 
+.overflow-wrapper{
+    overflow-y: hidden;
+}
+
 body{
     display: flex;
     justify-content: center;
-    padding: 152px 0px 151px 0px ;
+    padding: 152px 0 151px 0 ;
     background-color: var(--LG-color);
+    align-items: center;
     font-family: 'outfit',sans-serif;
 }
 
@@ -40,8 +45,8 @@ body{
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    margin-top: -1px;
-    margin-bottom: 12px;
+    margin-top: -10px;
+    margin-bottom: 3px;
     
 }
 
