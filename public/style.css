@@ -40,13 +40,13 @@ body{
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    margin-top: 0px;
+    margin-top: -1px;
+    margin-bottom: 12px;
     
 }
 
 .card-body p{
-    padding-top: 1px;
-    padding-bottom: 16px;
+ 
     display: flex;
     width: 256px;
     color: var(--Grey, #7D889E);
@@ -55,6 +55,7 @@ body{
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.188px;
+    margin-top: -4px;
 
 }
 
